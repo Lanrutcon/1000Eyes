@@ -1,0 +1,10 @@
+## Interface: 40300
+## Title: 1000Eyes
+## Notes: Tracks Target's Swings
+## Version: 1.2.2
+## Author: Lanrutcon
+## DefaultState: Enabled
+## SavedVariables: EyesSettingsSV
+
+1000Eyes.lua
+eyesConfig.xml
