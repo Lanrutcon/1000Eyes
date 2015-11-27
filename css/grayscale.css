@@ -261,11 +261,11 @@ a:focus {
     padding-top: 100px;
 }
 
-.creation-section {
+.image-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/creation-bg.jpg) no-repeat center center scroll;
+    background: url(../img/image-bg.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -273,23 +273,11 @@ a:focus {
     -o-background-size: cover;
 }
 
-.backport-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(../img/backport-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+.thumbnail {
+	/*border: 2px solid #333;*/
+	box-shadow: inset 0 0 10px #000;
 }
 
-#map {
-    width: 100%;
-    height: 200px;
-    margin-top: 100px;
-}
 
 @media(min-width:767px) {
     .content-section {
@@ -299,11 +287,11 @@ a:focus {
     .download-section {
         padding: 100px 0;
     }
-
-    #map {
-        height: 400px;
-        margin-top: 250px;
+	
+	.imagex-section {
+        padding: 100px 0;
     }
+
 }
 
 .btn {
